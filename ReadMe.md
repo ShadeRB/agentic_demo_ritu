@@ -1,4 +1,17 @@
 ReadMe **agent scripts**
+A modular multi-agent demo app built with LangChain, Gemini API, and Gradio — showcasing how multiple reasoning and API-connected agents can operate from a single unified interface.
+
+Project Overview
+
+This project demonstrates three intelligent agents wrapped inside a Gradio UI:
+
+Agent	Purpose	Key Features
+Calculator	Performs step-by-step reasoning and math using a ReAct agent.	Clean output, hidden scratchpad, automatic reasoning steps.
+Currency Exchange	Fetches the latest USD ↔ EUR exchange rate.	Uses live API data with simple, natural-language queries.
+Stock & Headlines (Gemini)	Retrieves real-time stock prices and latest financial headlines.	Combines Gemini LLM, Stooq/Yahoo Finance, and Google News RSS.
+
+
+
 
 agentic_demo_ritu/
 ├─ .env
