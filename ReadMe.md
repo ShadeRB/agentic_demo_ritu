@@ -1,4 +1,5 @@
 ReadMe **agent scripts**
+
 A modular multi-agent demo app built with LangChain, Gemini API, and Gradio — showcasing how multiple reasoning and API-connected agents can operate from a single unified interface.
 
 Project Overview
@@ -32,23 +33,23 @@ agentic_demo_ritu/
 
 All three are *independent agents* but share:
 
-* The same `.env` file (for API keys)
-* The same Python environment (`gemini_agent`)
-* The same entry point (`demo.py`) that lets you pick which one to run.
+* .env` file (for API keys)
+*  Python environment (`gemini_agent`)
+* entry point (`demo.py`) that lets you pick which one to run.
 
 If you run:
 
-bash
+
 python demo.py --which react_calculator
 
 → runs `calculator_agent.py`
 
-bash
+
 python demo.py --which gemini_react
 
 → runs `langchain_gemini_agent.py`
 
-bash
+
 python demo.py --which tool_exchange
 
 → runs `agent.py`
